@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p-6</title>
+    <style>
+        #p1 {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        #p2 {
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="p1">What is <u> closure function</u> in javascrip</p>
+    <p id="p2"> a closure gives access to an outer function's scope from an inner function.</p> <br>
+    <hr>
+    <p id="p"></p>
+    <br>
+    <button type="button" onclick="myfunction()">click and count</button>
+    <script>
+        const one = (function(){
+            let counter=0;
+            return function () {counter += 1; return counter;}
+        })();
+
+       function myfunction(){
+            document.getElementById("p").innerHTML=one();
+        }
+    </script>
+</body>
+
+</html>

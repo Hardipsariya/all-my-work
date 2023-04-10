@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p -5 </title>
+</head>
+
+<body>
+    <p id="p"></p>
+
+    <script>
+        const emp = {
+                empinfo: function () {
+                    return this.fieldName + "<br> " + this.Address + " <br>" + this.Designation;
+                }
+            }
+
+        const employee = {
+            fieldName: "IT",
+            Address: "007,Rajkot,gujarat,380005",
+            Designation: "web developer"
+
+        }
+
+        document.getElementById("p").innerHTML=emp.empinfo.apply(employee);
+    </script>
+</body>
+
+</html>
