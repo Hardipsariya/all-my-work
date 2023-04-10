@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CSS home</title>
+    <style>
+      .nav{
+    text-decoration: none;
+}
+#rnave ul li {
+    text-decoration: none;
+}
+summary{
+    list-style: none;
+    color: white;
+    padding: 10px;
+}
+
+.list1{
+    margin-top: 15px;
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    
+}
+
+.A{
+    /* width: 70%; */
+    display: block;
+    padding: 10px;
+    list-style: none;
+    background-color: black;
+    color: white;
+
+}
+
+.B{
+    margin: 10px;
+   
+    
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .col1 ul {
+    list-style: none;
+}
+
+.container .col1 ul li {
+    background-color: black;
+    margin: 20px;
+    color: white;
+    padding: 5px;
+    width: 100%;
+}
+.container .col1 ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.container .col2 {
+    border: 1px solid black;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.container .col2 table {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.container .col2 th {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (min-width:650px) {
+    .container .col2 {
+        border: 1px solid black;
+        width: 80%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 1363px) {
+    .container .col1 {
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+}
+
+    </style>
+</head>
+<body>
+      <!---------------------------- navbar str ------------------->
+      <nav class="radnav">
+        <div id="raddiv1">
+            <img src="./2.jpeg" alt="radixweb">
+        </div>
+        <div id="raddiv2">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./html_home.html">HTML</a></li>
+                <li><a href="./css_home.html">CSS</a></li>
+                <li><a href="">Bootstrap</a></li>
+                <li><a href="">JavaScript</a></li>
+                <li><a href="">jQuery</a></li>
+                <li><a href="">Mini Project</a></li>
+                <li><a href="">SQL</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <!----------------------- body started ----------------------------->
+    <div class="raddiv3">
+        <div id="raddiv4">
+            <ul>
+                <li>DAY 1</li>
+                <ul>
+                    <li>Assignment</li>
+                    <ul>
+                        <li><a href="./cssAss_1.html">Assignment  1</a></li>
+                        <li><a href="./cssAss_2.html">Assignment 2 </a></li>
+                        <li><a href="./cssAss_3.html">Assignment  3</a></li>
+                    </ul>
+
+                </ul>
+                <ul>
+                    <li>Practice</li>
+                    <ul>
+                        <li><a href="./csspra_1.html">Practice 1</a></li>
+                        <li><a href="./csspra_2.html">Practice 2</a></li>
+                        <li><a href="./csspra_3.html">Practice 3</a></li>
+                        <li><a href="./csspra_4.html">Practice 4</a></li>
+
+                    </ul>
+                </ul>
+                <li>DAY 2</li>
+                <ul>
+                    <li>Assignment</li>
+                    <ul>
+                        <li><a href="./css_d2_a1.html">Assignment  1</a></li>
+                        <li><a href="./css_d2_a2.html">Assignment 2</a></li>
+                        <li><a href="./css_d2_a3.html">Assignment  3</a></li>
+                        <li><a href="./css_d2_a4.html">Assignment 4</a></li>
+                        <li><a href="./css_d2_a5.html">Assignment 5</a></li>
+                    </ul>
+
+                </ul>
+                <ul>
+                    <li>Practice</li>
+                    <ul>
+                        <li><a href="./css_d2_p1.html">Practice 1</a></li>
+                        <li><a href="./css_d2_p2.html">Practice 2</a></li>
+                        <li><a href="./css_d2_p3.html">Practice 3</a></li>
+                        <li><a href="./css_d2_p4.html">Practice 4</a></li>
+                        <li><a href="./css_d2_p5.html">Practice 5</a></li>
+                        <li><a href="./css_d2_p6.html">Practice 6</a></li>
+                        
+                    </ul>
+                </ul>
+            </ul>
+
+        </div>
+        
+        <div id="raddiv5">
+            <div class="container">
+      
+                <div class="nav" id="rnav">
+                    <div class="list1">
+                    <a href="#"  >
+                        <ul>
+                            <li class="A"><strong>Public</strong></li>
+                            <li class="B">link1</li>
+                            <li class="B">link2</li>
+                        </ul>
+                        
+                    </a>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+        
+                    <div class="list1">
+                        <a href="#">
+                            
+                                <ul>
+                                    <li class="A"><strong>View</strong></li>
+                                    <li class="B">Link 1</li>
+                                    <li class="B">Link 2</li>
+                                    <li class="B">Link 3</li>
+                                    <li class="B">Link 4</li>
+                                    <li class="B">Link 5</li>
+                                    <li class="B">Link 6</li>
+                                    <li class="B">Link 7</li>
+                                </ul>
+                               
+                            
+                        </a>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+        
+        
+                    <div class="list1">
+                        <a href="">
+                            
+                                <ul>
+                                    <li class="A"><strong>HR</strong></li>
+                                    <li class="B">Address Details</li>
+                                    <li class="B">Family Details</li>
+                                </ul>
+                                
+                            
+                        </a>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+        
+                    <div class="list1">
+                        <a href="">
+                            
+                                <ul>
+                                        <li class="A"><strong>Network Details</strong></li>
+                                        <li class="B">Vehical Details </li>
+                                        <li class="B">Machine Details</li>
+                                    
+                                </ul>
+                                
+                            
+                        </a>
+                    </div>
+        
+                </div>
+                <div class="col2">
+                    <table>
+                         <caption> <!-- this is table   --></caption>
+                        <tr>
+                            <th colspan="3">Details </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><span> Name : </span> <span> abc </span> </p>
+                                <p><span> Value : </span> <span> abc </span> </p>
+                                <p><span> Extra : </span> <span> abc </span> </p>
+                            </td>
+                            <td>
+                                <p><span> Name : </span> <span> abc </span> </p>
+                                <p><span> Value : </span> <span> abc </span> </p>
+                                <p><span> Extra : </span> <span> abc </span> </p>
+                            </td>
+                            <td>
+                                <p><span> Name : </span> <span> abc </span> </p>
+                                <p><span> Value : </span> <span> abc </span> </p>
+                                <p><span> Extra : </span> <span> abc </span> </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><span> Name : </span> <span> abc </span> </p>
+                                <p><span> Value : </span> <span> abc </span> </p>
+                                <p><span> Extra : </span> <span> abc </span> </p>
+                            </td>
+                            <td>
+                                <p><span> Name : </span> <span> abc </span> </p>
+                                <p><span> Value : </span> <span> abc </span> </p>
+                                <p><span> Extra : </span> <span> abc </span> </p>
+                            </td>
+                            <td>
+                                <p><span> Name : </span> <span> abc </span> </p>
+                                <p><span> Value : </span> <span> abc </span> </p>
+                                <p><span> Extra : </span> <span> abc </span> </p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

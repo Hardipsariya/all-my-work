@@ -4,157 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
     <style>
-        table,th,td{
-            border: 1px solid black;
-            border-collapse: collapse ;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-            height: 30px;
-            width: 600px;
+        * {
+          box-sizing: border-box;
         }
         
-    </style>
-    <title>REPORT CARD</title>
+        body {
+          margin: 0;
+          
+        }
+        
+        h1{
+          text-align: center;
+          padding: 32px;
+        }
+        
+        .div1{
+          display: flex;
+          flex-wrap: wrap;
+          padding: 0 4px;
+        }
+        
+        
+        .div2{
+          flex: 25%;
+          max-width: 25%;
+          padding: 0 4px;
+        }
+        
+        .div2 img {
+          margin-top: 8px;
+          vertical-align: middle;
+          width: 100%;
+          padding: 8px;
+          border: 1px solid black;
+        }
+        
+        
+        
+        @media (max-width: 800px) 
+        {
+          .column {
+            flex: 50%;
+            max-width: 50%;
+          }
+        }
+        
+        
+        @media (max-width: 600px)
+         {
+          .column {
+            flex: 100%;			
+            max-width: 100%;
+          }
+        }
+        </style>
 </head>
 <body>
+    <h1>Responsive Image Gallery</h1>
+  
+
+
+
+<div class="div1"> 
+  <div class="div2">
+    <img src="./6.jpg" alt="img6" height="600px" >
+    <img src="./2.jpg" alt="img2" height="200px">
+    <img src="./3.jpg" alt="img3" height="600px">
+    <img src="./4.jpg" alt="img4" height="200px">
+    <img src="./5.jpg" alt="img5" height="300px">
+    <img src="./1.jpg" alt="img1" height="500px"> 
     
-    <h3 style="text-align: center;">REPORT CARD</h3>
+  </div>
+  
+  <div class="div2">
+    <img src="./5.jpg" alt="img5" height="300px">
+    <img src="./1.jpg" alt="img1" height="500px">
+    <img src="./4.jpg" alt="img4" height="200px">
+    <img src="./6.jpg" alt="img6" height="600px">
+    <img src="./2.jpg" alt="img2" height="200px">
+    <img src="./3.jpg" alt="img3" height="600px">
+  </div> 
    
-    <table >
-        <caption><!--this for table tag--></caption>
-        <tr>
-            <th>
-                Name of Student
-            </th>
-            <th>
-                Roll Number
-            </th>
-            <th>
-                Year of Passing
-            </th>
-            <th>
-                Teacher
-            </th>
-            
-
-            
-        </tr>
-        <tr>
-            <td>
-                Hardip sariya
-            </td>
-            <td>
-                190890131028
-            </td>
-            <td>
-                2023
-            </td>
-            <td>
-                XYZ
-            </td>
-        </tr>
-    </table>
-    <br>
-    <br>
-    <table id="table1">
-        <caption><!--thia is table tag--></caption>
-       <tr>
-        <th>
-            Subject
-        </th>
-        <th>
-            Subject mark
-        </th>
-        <th>
-            Grade
-        </th>
-       </tr>
-       <tr>
-        <td>
-            prof.ehics
-        </td>
-        <td>
-            90
-        </td>
-        <td>
-            A
-        </td>
-       </tr>
-
-       <tr>
-        <td>
-            Web Delelopment
-        </td>
-        <td>
-            80
-        </td>
-        <td>
-            B
-        </td>
-       </tr>
-       
-       <tr>
-        <td>
-            Big Data
-        </td>
-        <td>
-            97
-        </td>
-        <td>
-            A+
-        </td>
-       </tr> 
-       
-       <tr>
-        <td>
-            TOC
-        </td>
-        <td>
-            88
-        </td>
-        <td>
-            B+
-        </td>
-       </tr>
-
-       <tr>
-        <td>
-            Compiler Design
-        </td>
-        <td>
-            76
-        </td>
-        <td>
-            c
-        </td>
-       </tr>
-          
-       <tr>
-        <td>
-            Over all Mark:
-        </td>
-        <td colspan="2">
-            96/100
-        </td>
-       
-       </tr>
-
-       <tr>
-        <td>
-            Over all Grade
-        </td>
-        <td colspan="2">
-          A
-        </td>
-
-       </tr>
-       
-
-
-    </table>
+  <div class="div2">
+    <img src="./4.jpg" alt="img4" height="200px">
+    <img src="./2.jpg" alt="img2" height="500px">
+    <img src="./3.jpg" alt="img3" height="300px">   
+    <img src="./1.jpg" alt="img1" height="600px">
+    <img src="./6.jpg" alt="img6" height="600px">
+    <img src="./5.jpg" alt="img5" height="200px">
     
-    
+  </div>
+  
+  <div class="div2">
+    <img src="./3.jpg" alt="img3" height="500px">
+    <img src="./1.jpg" alt="img1" height="200px">
+    <img src="./6.jpg" alt="img6" height="600px">
+    <img src="./5.jpg" alt="img5" height="200px">
+    <img src="./4.jpg" alt="img4" height="600px">
+    <img src="./2.jpg" alt="img2" height="300px">
+  </div>
+</div>
+
 </body>
 </html>

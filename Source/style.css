@@ -1,0 +1,69 @@
+.radnav{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(185, 173, 173);
+    display: flex;
+}
+#raddiv1{
+    float: left;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+#raddiv1 img{
+    margin-left: 30%;
+    margin-top: 2%;
+    height: 50%;
+    width: 10%;
+}
+
+#raddiv2 {
+    float: right;
+   height: 100%;
+    width: 50%;
+}
+
+#raddiv2 ul li{
+    
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 0.5%;
+    margin: 0.2%;
+}
+#raddiv2 ul li a{
+    color: rgb(216, 214, 214);
+    text-decoration: none;
+    font-size: 120%;
+    
+    
+}
+#raddiv2 ul li a:hover{
+    
+    color:white;
+   
+}
+
+#raddiv3{
+ display: flex;
+ width: 100%;
+ height: 20%;
+}
+
+#raddiv4{
+    margin-top: 0.5%;
+    float: left;
+    height: 600px;
+    width: 20%;
+    background-color: rgb(188, 224, 212);
+}
+
+
+#raddiv5 img{
+    width: 35%;
+    height: 60%;
+   margin-top: 10%;
+   margin-left: 32%;
+
+}

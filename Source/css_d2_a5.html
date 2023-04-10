@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CSS home</title>
+    <style>
+        .header{
+    background-color: rgb(220, 224, 223);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 300px;
+    height: 40px;
+    align-items: center;
+    font-size: 15px;
+    border: 1px solid black;
+}
+.num{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 300px;
+    height: 100px;
+    width: 50%;
+}
+.numimg{
+    margin-top: 10px;
+    
+}
+.num2{
+    margin-top: 30px;
+    
+    font-size: 30px;
+}
+.num2 p{
+   float: right;
+}
+
+.menu ul{
+  margin-left: 120px;
+}
+
+.menu ul li {
+  
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    margin-top: 29px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+#btn{
+    background-color: orange;
+    padding: 20px;
+    
+}
+
+.bighed{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(220, 224, 223);
+    border-top: 1px solid black;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.pera{
+    float: left;
+   
+}
+
+
+#btn1{
+    margin-top: 25px;
+    margin-left: 200px;
+    height: 40px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    border: 1px solid orange;
+    font-weight: 600;
+}
+
+#label1{
+    margin-top: 90px;
+    margin-left: 200px;
+    font-size: 60px;
+}
+#label2{
+    margin-top: 5px;
+    margin-left: 200px;
+    font-size: 35px;
+}
+#label3{
+    margin-top: 10px;
+    margin-left: 200px;
+    font-size: 20px;
+    width: 35%;
+}
+.form{
+    float: right;
+    width: 50%;
+    display: inline-block;
+    padding: 100px;
+
+}
+.form input{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.form textarea {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+
+}
+#sbmit{
+    width: 410px;
+    background-color: orange;
+    color: white;
+    font-size: large;
+    border: 1px solid orange;
+    text-align: center;
+}
+
+.blue{
+    height: 180px;
+    width: 100%;
+    background-color: rgb(32, 183, 243);
+    display: flex;
+}
+
+#blab1{
+   padding-top: 30px;
+    margin-left: 200px;
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 600;
+   
+}
+#blab2{
+    margin-left: 200px;
+    font-size: 20px;
+    width: 50%;
+    color: white;
+}
+#cb1{
+    float: left;
+    width: 70%;
+}
+#cb2{
+    float: right;
+    width: 30%;
+}
+#btn2{
+    width: 190px;
+    height: 55px;
+    border-radius: 5px;
+    color: rgb(38, 185, 243);
+    margin-top: 50px;
+    font-size: 20px;
+    border: 1px solid white;
+    font-weight: 600;
+}
+#div4{
+    display: inline-block;
+    display: flex;
+    justify-content: center ;
+    background-color: rgb(220, 224, 223);
+    padding-bottom: 40px;
+    border-bottom: 1px solid black;
+    
+}
+#img2{
+    margin-left: 200px;
+    margin-top: 40px;
+    float: left;
+    width: 500px;
+}
+
+#img2  video{
+    height: 280px;  
+    width: 700px;
+}
+
+#parag{
+    float: right;
+    margin-left: 15px;
+   
+}
+
+#lebelp{
+    padding-top: 30px;
+  
+    margin-left: 70px;
+    font-size: 50px;
+    font-weight:600;
+    position: relative;
+    
+   
+
+}
+#lebelpp{
+    margin-left: 80px;
+    font-size: 30px;
+}
+
+#lebelppp{
+    width: 450px;
+    height: 250px;
+    margin-left: 80px;
+}
+
+#btns{
+    height: 40px;
+    width: 150px;
+    background-color: orange;
+    margin-left: 80px;
+    margin-top: -170px;
+}
+#btns1{
+    height: 40px;
+    width: 150px;
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+
+#div5{
+    display: flex;
+   margin-top: 30px;
+    justify-content: center;
+   
+
+    
+}
+.div51 p{
+    margin-left: 0px;
+   padding-right: 20px;
+}
+
+#div54{
+    width: 100%;
+    text-align: center;
+}
+#div54 input{
+    background-color: orange;
+    color: white;
+    padding: 8px;
+    border: 1px solid orange;
+    height: 40px;
+    width: 180px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#div6{
+    display: block;
+    justify-content: space-between;
+    margin-left: 350px;
+}
+.div61{
+    width: 15%;
+    height: 200px;
+    float: left;
+    
+}
+footer{
+    margin-top: 40px;
+    width: 100%;
+    height: 250px;
+    background-color: darkgray;
+   
+}
+
+.div61 li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+#div66{
+    width: 100%;
+    height: 55px;
+    background-color: grey;
+    padding: 10px;
+    border-bottom: 4.5px solid black;
+    display:grid;
+    text-align: center;
+   
+}
+
+#div66 p{
+    display: block;
+   color: white;
+    text-align: center;
+} 
+    </style>
+</head>
+<body>
+      <!---------------------------- navbar str ------------------->
+      <nav class="radnav">
+        <div id="raddiv1">
+            <img src="./2.jpeg" alt="radixweb">
+        </div>
+        <div id="raddiv2">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./html_home.html">HTML</a></li>
+                <li><a href="./css_home.html">CSS</a></li>
+                <li><a href="">Bootstrap</a></li>
+                <li><a href="">JavaScript</a></li>
+                <li><a href="">jQuery</a></li>
+                <li><a href="">Mini Project</a></li>
+                <li><a href="">SQL</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <!----------------------- body started ----------------------------->
+    <div class="raddiv3">
+        <div id="raddiv4">
+            <ul>
+                <li>DAY 1</li>
+                <ul>
+                    <li>Assignment</li>
+                    <ul>
+                        <li><a href="./cssAss_1.html">Assignment  1</a></li>
+                        <li><a href="./cssAss_2.html">Assignment 2 </a></li>
+                        <li><a href="./cssAss_3.html">Assignment  3</a></li>
+                    </ul>
+
+                </ul>
+                <ul>
+                    <li>Practice</li>
+                    <ul>
+                        <li><a href="./csspra_1.html">Practice 1</a></li>
+                        <li><a href="./csspra_2.html">Practice 2</a></li>
+                        <li><a href="./csspra_3.html">Practice 3</a></li>
+                        <li><a href="./csspra_4.html">Practice 4</a></li>
+
+                    </ul>
+                </ul>
+                <li>DAY 2</li>
+                <ul>
+                    <li>Assignment</li>
+                    <ul>
+                        <li><a href="./css_d2_a1.html">Assignment  1</a></li>
+                        <li><a href="./css_d2_a2.html">Assignment 2</a></li>
+                        <li><a href="./css_d2_a3.html">Assignment  3</a></li>
+                        <li><a href="./css_d2_a4.html">Assignment 4</a></li>
+                        <li><a href="./css_d2_a5.html">Assignment 5</a></li>
+                    </ul>
+
+                </ul>
+                <ul>
+                    <li>Practice</li>
+                    <ul>
+                        <li><a href="./css_d2_p1.html">Practice 1</a></li>
+                        <li><a href="./css_d2_p2.html">Practice 2</a></li>
+                        <li><a href="./css_d2_p3.html">Practice 3</a></li>
+                        <li><a href="./css_d2_p4.html">Practice 4</a></li>
+                        <li><a href="./css_d2_p5.html">Practice 5</a></li>
+                        <li><a href="./css_d2_p6.html">Practice 6</a></li>
+                        
+                    </ul>
+                </ul>
+            </ul>
+
+        </div>
+        
+        <div id="raddiv5">
+            <div class="container">
+                <div  class="header">
+                    <div class="shopingcard">
+                      <em class="fa fa-shopping-cart" style="font-size: 24px;"></em>
+                      <span><strong style="font-size: 17px;">Shoping Cart</strong></span>
+                    </div>
+                    <div class="signup">
+                        <em class="fa fa-user" style="font-size: 25px;"></em>
+                        <span><strong style="font-size: 17px;">Sing in /registration</strong></span>
+        
+                    </div>
+        
+                </div>
+                <div class="num">
+                     <div class="numimg">
+                        <img src="./slogo.png" alt="" height="120px" width="80px">
+                     </div>
+                     <div class="num2">
+                       <p><strong>521-213-8000</strong></p>
+                     </div>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="">Yard Sing</a></li>
+                        <li><a href="">Banner</a></li>
+                        <li><a href="">Accesories</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">About</a>  </li>
+                        <li><a href="">Price</a></li>
+                        <li><a href="">Materials</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li id="btn"><a href="" style="color: white;">Custome Quote</a></li>
+                        
+        
+                    </ul>
+        
+                </div>
+        
+                <div class="bighed">
+                    <div class="pera">
+                        <div id="label1"><label for="">Big Headling</label></div>
+                        <div id="label2"><label for="">Smaller Subhead Here</label></div>
+                        <div id="label3"><label for="">and this is text copied and pasted over and over and over and over  and over  and over  and over and over  and over and over  vand over </label></div>
+                        <div><input type="button" value="Get Started" id="btn1"></div>
+        
+                    </div>
+                    <div class="form">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name"><br>
+                        <input type="email" placeholder="Email">
+                        <input type="tel"   placeholder="Mobile Number"><br>
+                        <textarea name="address" id="" cols="46" rows="3" placeholder="Message"></textarea><br>
+                        <input type="search" name="" value="SEND" id="sbmit">
+        
+                    </div>
+        
+                </div>
+                <div class="blue">
+                    <div id="cb1">
+                    <div id="blab1"><label for=""> This is Where an Awesome Tital Goes</label></div>
+                    <div id="blab2"><label for="">and this taxt copied and past over and over and over and over and over and over and over and over and over and over and over andvvover andvover andvover andover andover andover andv </label></div>
+                    </div>
+        
+        
+                    <div id="cb2"><input type="button" value="Design it Now" id="btn2"></div>
+        
+                </div>
+        
+                <div id="div4">
+                    <div id="img2">
+                       <img src="./img2.jpg" alt="">
+        
+                    </div>
+                    <div id="perag">
+                        <label for="" id="lebelp">Watch this </label><br>
+                        <label for="" id="lebelpp">it's a video, yo!</label>
+                        <p id="lebelppp">And this is text copied and pasted over and over over and over over and over over and overover and over over and over over and over over and over over and over over and over over and over over and over over and over</p>
+        
+                        <div id="btns"><input type="button" value="Learn More" id="btns1"></div>
+        
+                    </div>
+                </div>
+        
+                <div id="div5"> 
+                    <div class="div51" >
+                       <div>
+                        <img src="./1.1.png" alt="">
+                       </div>
+                       <div id="div511">
+                            <p>Project One </p>
+                            <p style="width: 250px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, iste aspernatur cum iure suscipit esse laboriosam tenetur.</p>
+                       </div>
+        
+                    </div>
+        
+                    <div class="div51">
+                           <div>
+                            <img src="./1.2.png" alt="">
+                           </div>
+                           <div>
+                                <p>Project One </p>
+                                <p style="width: 250px;" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, iste aspernatur cum iure suscipit esse laboriosam tenetur.</p>
+                           </div>
+        
+                    </div>
+        
+                    <div class="div51">
+                        <div>
+                            <img src="./1.3.png" alt="">
+                           </div>
+                           <div>
+                                <p>Project One </p>
+                                <p style="width: 250px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, iste aspernatur cum iure suscipit esse laboriosam tenetur.</p>
+                           </div>
+                    </div>
+        
+                   
+        
+                </div>
+        
+                <div id="div54"><input type="button" value="Learn More"></div>
+        
+            </div>
+        
+        <!-- footer part  -->
+        
+            <footer>
+                <div id="div6">
+                   <div class="div61">
+                    <ul>
+                        <li><strong>Help</strong></li>
+                        <li>Contect us</li>
+                        <li>F.A.O.</li>
+                        <li>Sitemap</li>
+                        <li>Pricing</li>
+                        <li>Redeem Promo</li>
+                        <br>
+                        <li><strong>Account</strong></li>
+                        <li>My Account</li>
+                    </ul>
+                   </div>
+                   <div class="div61">
+                    <ul  class="footerul">
+                        <li><strong>Product</strong></li>
+                        <li> Yard Sing</li>
+                        <li>Real Estate Sing</li>
+                        <li>vinyi Banners</li>
+                        <li>Car Megnetic</li>
+                        <li>Banner Stands</li>
+                        <li>Accessories</li>
+                        <li>Design Services </li>
+                        
+                       
+                        
+                    </ul>
+                   </div>
+                   <div class="div61">
+                    <ul>
+                        <li><strong>Company</strong></li>
+                        <li>overviwe</li>
+                        <li>Press room</li>
+                        <li>careers </li>
+                        <li>Reviews</li>
+                        <br>
+                        <li><strong>Programs</strong></li>
+                        <li>Affiliate</li>
+                        
+                        
+                       
+                        
+                    </ul>
+                   </div>
+                   <div class="div61">
+                    <ul>
+                        <li><strong>Help</strong></li>
+                        <li>Contect us</li>
+                        <li>F.A.O.</li>
+                        <li>Sitemap</li>
+                        <li>Pricing</li>
+                        <li>Redeem Promo</li>
+                        <br>
+                        <li><strong>Account</strong></li>
+                        <li>My Account</li>
+                    </ul>
+                   </div>
+                   <div  class="div61">
+                    <ul>
+                        <li><strong>Product</strong></li>
+                        <li> Yard Sing</li>
+                        <li>Real Estate Sing</li>
+                        <li>vinyi Banners</li>
+                        <li>Car Megnetic</li>
+                        <li>Banner Stands</li>
+                        <li>Accessories</li>
+                        <li>Design Services </li>
+                        
+                       
+                        
+                    </ul>
+                   </div>
+                   <div class="div61">
+                    <ul>
+                        <li><strong>Company</strong></li>
+                        <li>overviwe</li>
+                        <li>Press room</li>
+                        <li>careers </li>
+                        <li>Reviews</li>
+                        <br>
+                        <li><strong>Programs</strong></li>
+                        <li>Affiliate</li>
+                        
+                        
+                       
+                        
+                    </ul>
+                   </div>
+                 
+        
+                </div>
+               
+                <div id="div66">
+                    
+                    <p>Copyright @ 2016 SingDepotATx.com</p>
+                  
+                </div>
+            </footer>
+        </div>
+
+    </div>
+    
+</body>
+</html>

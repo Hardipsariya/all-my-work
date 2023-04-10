@@ -4,101 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <title>Font size</title>
     <style>
-        #tital{
-    text-align: center;
-}
-
-#form{
-    text-align: center;
-}
-
-label{
-    margin-right: 10px;
-    
-}
-
-input{
-      margin-top: 10px;
-      
-}
-
-#loc{
-    margin-top: 10px;
-    margin-bottom: -15px;
-}
-
-#div1{
-    height: 400px;
-    margin-left: 200px;
-    margin-right: 200px;
-    background-color: rgb(20,224,224);
-    border-radius: 15px;
-    border: 5px solid black;
-}
+      div{
+        box-sizing: border-box;
+        border: 2px solid magenta;
+        padding: 10px;
+      }
+      div p{
+        font-size: 32px;
+      }
+      @media screen and (max-width:900px)
+      {
+         #p{font-size: 20px;}  
+      }
     </style>
-    <title>Emp. details </title>
 </head>
 <body>
-    <div id="div1">
-        <h1 id="tital"> EMPLOYEE DETAILS</h1>
-        
-           <form action="#" id="form">
-                 
-                <label id="emp"> Name of Employee</label>
-                <input type="text" placeholder="Enter your name"  required>
-                <br>
-                
+    <div>
+    <p id="p">Lorem or ak  ipsum dolor sit, amet consectetur adipisicing elit. Eveniet recusandae quis ut doloremque odio explicabo deleniti tempora, deserunt nam possimus ad excepturi officiis sed voluptatibus facilis at maiores, optio dolorum id beatae. Voluptate ipsum quis quia optio eaque saepe. Quam vero qui officia? Fugiat at similique accusamus, quia officia fuga qui deserunt voluptate et optio aliquam consequuntur inventore a accusantium ?
 
-                <label id="age">Age</label>
-                <input type="number" placeholder="Enter your Age"  required>
-                <br>
-                    
-                <label > Gender</label>
-                <input type="radio" name="gender" id="male" required>Male
-                <input type="radio" name="gender" id="Female" required>Female
-                <input type="radio" name="gender" id="other" required>Other
-                <br>
-
-                <label > Designation</label>
-                <input type="text" placeholder="Enter your Designation" required>
-                <br>
-
-                <label >Salary</label>
-                <input type="number"  placeholder="Enter your Salary" required>
-                <br>
-
-                <div id="loc">
-                    <label >Location</label>
-                    <select name="" id="">
-                        <option value="---Select---">---Select---</option>
-                        <option value="Jasdan">Jasdan</option>
-                        <option value="Rajkot">Rajkot</option>
-                        <option value="Surat">Surat</option>
-                    </select>
-
-                </div>
-                <br>
-
-                <label > Email ID</label>
-                <input type="email" name="Email-id" placeholder="Enter your Email ID"  required>
-                <br>
-
-                <label >Date of Joining</label>
-                <input type="date" placeholder="Enter your Date of Joining" required>
-                <br>
-
-                <label >Contact number</label>
-                <input type="number" placeholder="Enter your Contact Num." required>
-                <br>
-
-                <input type="submit" value="Submit">
-           </form>
-
-
-
-
+    </p>
     </div>
 </body>
 </html>
