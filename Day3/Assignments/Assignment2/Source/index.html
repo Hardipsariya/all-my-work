@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ass -2</title>
+    <style>
+        #dtime {
+            font-size: 60px;
+            text-align: center;
+        }
+
+        #h1{
+            text-align: center;
+            font-size: 40px;
+        }
+        
+        #h2{
+            text-align: center;
+            font-size: 30px;
+        }
+        img{
+        margin-left: 160px;
+        }
+
+        #btn{
+            padding: 10px;
+            text-align: center;
+            margin-left: 850px;
+            margin-bottom: 100px;
+            background-color: turquoise;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <span><p id="h1">University of Mumbai </p></span><br>
+    <p id="h2">online exam </p>
+    <img src="./exam.jpg" alt="" srcset="">
+    <p id="dtime"></p>
+    <button onclick="str()" id="btn">Start Exam Now</button>
+
+
+
+    <script>
+        function str() {
+           
+           
+           
+            var h= new Date ();
+             h.setHours(h.getHours() + 3);
+            var count = new Date(h);
+
+            
+
+            var a = setInterval(function () {
+                var y = new Date().getTime();
+
+                var dis = count - y;
+
+                var hours = Math.floor((dis % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((dis % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((dis % (1000 * 60)) / 1000);
+
+
+                document.getElementById("dtime").innerHTML="Youre Exam End in <br> "+ hours + "h "
+                    + minutes + "m " + seconds + "s ";
+
+                if (dis < 0) {
+                    clearInterval();
+                    document.getElementById("dtime").innerHTML="youre time is up";
+                }
+
+
+            });
+
+
+            
+        };
+
+
+
+
+
+
+
+    </script>
+
+
+</body>
+
+
+</html>

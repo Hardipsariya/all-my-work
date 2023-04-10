@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A 2</title>
+</head>
+
+<body>
+    <input type="text" name="" id="in1" placeholder="plase enterdate in MM/DD/YYYY formet">
+    <button onclick="myBtn()">submit</button>
+
+    <script>
+
+
+
+
+        function newFun() {
+            {
+
+                var test = document.getElementById("in1").value;
+                var a = new Date(test);
+                alert("you'r given date is valid :- "  +a);
+            }
+
+
+
+        }
+
+
+
+        function myBtn() {
+            var x = document.getElementById("in1").value;
+
+            const newArry = x.split("-");
+
+            let myArry = newArry[0];
+
+            console.log(myArry);
+
+            console.log(newArry[0]);
+
+            var y = newArry[0];
+            var z = newArry[1];
+            var b = newArry[2];
+            
+            
+
+
+
+            if (y > 0 && y <= 12) {
+                console.log("month is valid");
+
+                if (z > 0 && z <= 31) {
+                    console.log(" and date is valid");
+
+                    if (b < 100) {
+                        alert(" year is not valid,becouse year must be in 4 digit");
+                    }
+                    else {
+                        newFun();
+                    }
+                }
+                else {
+                    alert("you'r date is invalid")
+                }
+            }
+            
+            else {
+                alert("youre date is invalid becouse youre month is invalid");
+            }
+
+
+
+
+
+
+
+
+        }
+
+
+    </script>
+</body>
+
+</html>

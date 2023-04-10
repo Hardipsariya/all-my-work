@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prac 9</title>
+</head>
+
+<body>
+    <h3>Var</h3>
+    <p>The var statement is used to declare a variable in JavaScript. A variable declared with the var keyword is
+        defined throughout the program.</p><br>
+    <p>It has global scope.</p><br>
+    <p>Variable declared with var keyword can be re-declared and updated in the same scope.</p>
+
+    <hr>
+    <h3> Let</h3>
+    <p>The let statement is used to declare a local variable in TypeScript. It is similar to the var keyword, but it has
+        some restriction in scoping in comparison of the var keyword. </p><br>
+    <p>It is limited to block scope.</p><br>
+    <p>Variable declared with let keyword can be updated but not re-declared.</p>
+    <hr>
+    <hr>
+
+
+
+    <script>
+
+        function letNew() {
+            let b = 80;
+            let b = 90;;//b is  re-declare  and we get error 
+            document.write(b);
+        }
+        letNew();
+
+
+        function varNew() {
+            var a = 50;
+            var a = 60;//a is  re-declare 
+            document.write(a);
+        }
+
+        varNew();
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New p -10</title>
+</head>
+
+<body>
+    <p id="p"></p>
+    <script>
+        var a = "hardip sariya";
+        var c = 123466;
+       
+        function valueprint(print){
+            document.getElementById("p").innerHTML=print;
+        }
+        
+        const timeout = setTimeout(test, 500);
+
+        function test() {
+            let apromice = new Promise(function (resolve, reject) {
+                if (typeof a == "string"){
+                    let arry = [...a];
+                    arry.reverse();
+                    a = arry.join('');
+                    console.log(a);
+                    resolve(a);
+
+
+                   
+                }
+                else {
+                    reject(" Wrong Input");
+                }
+            });
+
+
+
+            apromice.then(
+                function (value) {valueprint(value);},
+
+                function (error) {valueprint(error);}
+            );
+
+
+        }
+
+
+    </script>
+</body>
+
+</html>

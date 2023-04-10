@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT -1</title>
+</head>
+
+<body>
+    <form>
+        <label>Please enter first number : </label><br>
+        <input type="text" name="first" id="num1"><br>
+        <label for="">Please enter second number :</label><br>
+        <input type="text" name="second" id="num2"><br>
+        <div>
+            <label for="">Please select operation you want to perform : </label><br>
+            <input type="radio" name="operation" id="add">
+            <label for="addition">addition</label><br>
+
+
+            <input type="radio" name="operation" id="sub">
+            <label for="subtraction">subtraction</label> <br>
+
+
+
+            <input type="radio" name="operation" id="mul">
+            <label for="multiplication">multiplication</label> <br>
+
+
+
+            <input type="radio" name="operation" id="div">
+            <label for="division">division</label>
+        </div>
+        <button id="cal" onclick="Cal()">Calculate</button>
+        <button onclick="reset()">Reset</button>
+
+
+
+    </form>
+    <p id="result"></p>
+
+
+    <script>
+        function Cal() {
+            var x = parseInt(document.getElementById("num1").value);
+            var y = parseInt(document.getElementById("num2").value);
+            var sum = document.getElementById("add").innerHTML = x + y;
+            var sub1 = document.getElementById("sub").innerHTML = x - y;
+            var mul1 = document.getElementById("mul").innerHTML = x * y;
+            var div1 = document.getElementById("div").innerHTML = x / y;
+
+
+
+
+            // console.log(x);
+            if (document.getElementById("add").checked == true) {
+
+                document.write("your addition is :- " + sum);
+            }
+            else if (document.getElementById("sub").checked == true) {
+                document.write("your substration is :- " + sub1);
+            }
+            else if (document.getElementById("mul").checked == true) {
+                document.write("your multiplication is :- " + mul1);
+            }
+            else if (document.getElementById("div").checked == true) {
+                document.write("your divition is :- " + div1);
+            }
+            else{
+                alert("please select arithmatic operator");
+            }
+        }
+
+        function reset(){
+            location.reload();
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
