@@ -1,0 +1,17 @@
+Step 1: Start
+
+Step 2: Read N
+
+Step 3: do i=2, sum=0
+
+Step 4: Check i<=N or not
+
+Step 5: if no then print sum
+
+Step 6: if yes then add i into sum and store this value in sum
+
+Step 7: add 2 into i and store this value in i
+
+Step 8: loop are working untill condition are not true
+
+Step 9: Stop

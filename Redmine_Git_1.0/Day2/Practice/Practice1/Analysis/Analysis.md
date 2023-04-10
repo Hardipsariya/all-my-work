@@ -1,0 +1,1 @@
+Step 1: do practice in w3sschool for git 
