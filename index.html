@@ -1,817 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>H website</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./output.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse ;
+            height: 30px;
+            
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            
+            width: 600px;
+        }
+        
+    </style>
+    <title>REPORT CARD</title>
 </head>
-
 <body>
-  <nav style="font-family: 'Playfair Display', serif;"
-    class="relative   flex  flex-nowrap items-center justify-between bg-neutral-100 py-4 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 lg:flex-wrap lg:justify-start"
-    data-te-navbar-ref>
-    <div class="flex w-full flex-wrap items-center justify-between px-6">
-      <button
-        class="block border-0 bg-transparent py-2 px-2.5 text-neutral-500 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 lg:hidden"
-        type="button" data-te-collapse-init data-te-target="#navbarSupportedContent3"
-        aria-controls="navbarSupportedContent3" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="[&>svg]:w-7">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-7 w-7">
-            <path fill-rule="evenodd"
-              d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
-              clip-rule="evenodd" />
-          </svg>
-        </span>
-      </button>
-      <div class="!visible hidden flex-grow bg-white-700 w-full basis-[100%] items-center lg:!flex lg:basis-auto "
-        id="navbarSupportedContent3" data-te-collapse-item>
-        <a class="text-xl text-black  ml-50%" href="#"><img class="ml-48" src="./hau_gitschberge_horizontal 1.png"
-            alt=""></a>
-        <!-- Left links -->
-        <ul class="list-style-none mr-auto flex flex-col pl-0 lg:flex-row ml-48" data-te-navbar-nav-ref>
-          <li class="lg:px-5" data-te-nav-item-ref>
-            <a class="active disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-500"
-              aria-current="page" href="#" data-te-nav-link-ref>HOME</a>
-          </li>
-          <li class="lg:px-2" id="dropdownHoverButton" data-dropdown-toggle="dropdownHover"
-            data-dropdown-trigger="hover">
-            <a class="p-0 text-neutral-500  hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
-              href="#" data-te-nav-link-ref> BLOG </a>
-
-
-           
+    
+    <h3 style="text-align: center;">REPORT CARD</h3>
+   
+    <table >
+        <caption><!-- this is table --></caption>
+        <tr>
+            <th>
+                Name of Student
+            </th>
+            <th>
+                Roll Number
+            </th>
+            <th>
+                Year of Passing
+            </th>
+            <th>
+                Teacher
+            </th>
             
 
-
-          </li>
-          <li class="lg:px-2" data-te-nav-item-ref>
-            <a class="p-0 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
-              href="#" data-te-nav-link-ref>FEATURES</a>
-          </li>
-          <li class="lg:px-2" data-te-nav-item-ref>
-            <a class="p-0 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
-              href="#" data-te-nav-link-ref>CATEGORIES</a>
-          </li>
-          <li class="lg:px-2" data-te-nav-item-ref>
-            <a class="p-0 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
-              href="#" data-te-nav-link-ref>ABOUT</a>
-          </li>
-          <li class="lg:px-2" data-te-nav-item-ref>
-            <a class="p-0 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
-              href="#" data-te-nav-link-ref>CONTACT</a>
-          </li>
-
-          <li class="lg:px-2" data-te-nav-item-ref>
-            <a class="p-0 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
-              href="#" data-te-nav-link-ref>SHOP</a>
-          </li>
-          <li class="lg:px-2" data-te-nav-item-ref>
-            <a class="p-0 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
-              href="#" data-te-nav-link-ref>PORTFOLIO</a>
-          </li>
-
-        </ul>
-        <div class="flex justify-center">
-          <div>
-            <input
-              class="mt-[0.3rem] mr-5 h-3.5 w-8 appearance-none rounded-[0.4375rem] bg-[rgba(0,0,0,0.25)] outline-none before:pointer-events-none before:absolute before:h-3.5 before:w-3.5 before:rounded-full before:bg-transparent before:content-[''] after:absolute after:z-[2] after:-mt-[0.1875rem] after:h-5 after:w-5 after:rounded-full after:border-none after:bg-white after:shadow-[0_0px_3px_0_rgb(0_0_0_/_7%),_0_2px_2px_0_rgb(0_0_0_/_4%)] after:transition-[background-color_0.2s,transform_0.2s] after:content-[''] checked:bg-primary checked:after:absolute checked:after:z-[2] checked:after:-mt-[3px] checked:after:ml-[1.0625rem] checked:after:h-5 checked:after:w-5 checked:after:rounded-full checked:after:border-none checked:after:bg-primary checked:after:shadow-[0_3px_1px_-2px_rgba(0,0,0,0.2),_0_2px_2px_0_rgba(0,0,0,0.14),_0_1px_5px_0_rgba(0,0,0,0.12)] checked:after:transition-[background-color_0.2s,transform_0.2s] checked:after:content-[''] hover:cursor-pointer focus:before:scale-100 focus:before:opacity-[0.12] focus:before:shadow-[3px_-1px_0px_13px_rgba(0,0,0,0.6)] focus:before:transition-[box-shadow_0.2s,transform_0.2s] focus:after:absolute focus:after:z-[1] focus:after:block focus:after:h-5 focus:after:w-5 focus:after:rounded-full focus:after:content-[''] checked:focus:border-primary checked:focus:bg-primary checked:focus:before:ml-[1.0625rem] checked:focus:before:scale-100 checked:focus:before:shadow-[3px_-1px_0px_13px_#3b71ca] checked:focus:before:transition-[box-shadow_0.2s,transform_0.2s]"
-              type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-            <label class="inline-block pl-[0.15rem] hover:cursor-pointer" for="flexSwitchCheckDefault"></label>
-          </div>
-        </div>
-        <!-- Left links -->
-      </div>
-      <!-- Collapsible wrapper -->
-    </div>
-  </nav>
-  <!----------------------##################### main part started ######################--------------------------->
-  <div class="con relative " style="font-family: 'Playfair Display', serif;">
-    <div class="bg-[#E7F2ED]  flex justify-around  ">
-      <div class="flex flex-row max-md:flex-col gap-44 max-md:gap-5  ">
-        <div class=" flex-col pt-32 max-md:pt-5">
-          <img class="h-96 w-80" src="./Rectangle 65.png" alt="">
-        </div>
-        <div class=" flex flex-col pt-16 max-md:pt-5">
-          <img class="h-96 w-80" src="./Rectangle 66.png" alt="">
-          <p class="text-center  text-2xl mt-12 uppercase italic tracking-widest">hey there</p>
-          <p class="text-center text-7xl mt-2">I'm Haus</p>
-        </div>
-        <div class=" flex flex-col pt-32 max-md:pt-5">
-          <img class="h-96 w-80 " src="./Rectangle 67.png" alt="">
-  
-        </div>
-
-        
-      </div>
-      
-
-
-    </div>
-    <div class=" ">
-          <div class="  w-full  bg-[#E7F2ED] ">
-            <p class="text-justify text-xl font-Playfair Display pt-12 mx-40 leading-loose max-md:w-1/2 ">Lorem ipsum, dolor sit amet
-              consectetur
-              adipisicing elit. Delectus, odio dolores
-              architecto veniam neque quasi nobis pariatur totam inventore dignissimos laboriosam reprehenderit necessitatibus
-              quas doloribus. Labore quos neque sapiente voluptatum, fugit natus rem, facilis iste doloribus a est vero
-              voluptates molestiae amet tempora. Omnis dolor iusto praesentium dignissimos dolorum doloribus voluptatum quas
-              tempore, dicta ea quae culpa quo nesciunt. Nemo?</p>
-      
-            <div class="text-center bg-[#E7F2ED] mt-10 pb-10">
-              <p class="  uppercase border-2 px-7 py-2 border-[#D0D0A7] inline-block text-xl   italic tracking-widest">read
-                the whole story</p>
-            </div>
-          </div>
-        </div>
-
-
-  </div>
-
-  <!-------------------- #########  new row ##################--------------------->
-  <div id="row2 relative" style="font-family: 'Playfair Display', serif;">
-    <div class=" flex flex-row   bg-[#F2F2E6] border-t-2 border-[#D0D0A7]">
-      
-        <div class=" w-1/2 pl-10 max-md:flex-row pr-10 flex flex-col  border-r-2 border-[#D0D0A7]">
-          <img class=" h-96 w-96 py-11" src="./Rectangle 65 (1).png" alt="">
-
-        </div>
-        <div class="flex flex-col ">
-          <p class="mt-16 mx-20 text-[#04282D] text-3xl tracking-widest capitalize w-3/4">Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Modi
-
-            eveniet qui eius officia </p>
-          <p class="pt-10 mx-20 text-lg  leading-8 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
-            consectetur
-            esse et
-            ut cupiditate
-            repellat consequatur nemo. Reiciendis amet labore perspiciatis consequatur incidunt maxime ex. Culpa omnis,
-            magni quo impedit temporibus eaque
-            quis atque dolor? Omnis hic ad quae.</p>
-
-          <p class="border-2 mt-10 mx-20 w-48 px-10 py-2 text-center  border-[#D0D0A7] inline-block italic">GET STARTED </p>
-
-
-        </div>
-
-        
-
-    </div>
-
-  </div>
-
-  <!--------------------########################### new row ##########################-->
-
-  <div class="container relative my-10" id="row4">
-    <div class="flex flex-row mx-48 max-md:flex-col">
-      
-      <div class="flex flex-col max-md:w-full gap-5  grid-auto-columns px-10">
-        <div class="relative">
-          <img class="w-80 h-80 relative hover:shadow-inner" src="./20 22.png" alt="...">
-          <div class="bg-white p-5 absolute top-24 left-9 " style="font-family: 'Playfair Display', serif;">architecture
-          </div>
-        </div>
-        <div class="relative">
-          <img class="w-72 h-80" src="./21 1.png" alt="...">
-          <div class="bg-white p-5 absolute top-24 left-9" style="font-family: 'Playfair Display', serif;">interior
-          </div>
-        </div>
-
-
-
-      </div>
-      
-      <div style="font-family: 'Playfair Display', serif;" class="flex flex-col py-36 pr-10 text-center   ">
-        <p class="my-5 tracking-widest text-2xl italic">THE PORTFOLIO.</p>
-        <div class="text-center uppercase text-6xl  max-md:flex-col">
-          <p class="max-md:flex-col">view</p>
-          <p class="max-md:flex-col">recent</p>
-          <p class="max-md:flex-col">work</p>
-        </div>
-        <span class="text-center border-2 border-[#04282D] my-5 py-2 italic">EXPLORE</span>
-      </div>
-     
-      <div class="flex flex-col gap-5  ">
-        <div class="relative">
-          <img class="w-96 h-80" src="./22 1.png" alt="...">
-          <div class="bg-white p-5  absolute top-24 left-9" style="font-family: 'Playfair Display', serif;">animal</div>
-        </div>
-
-        <div class="relative">
-          <img class="w-96 h-80" src="./7 1.png" alt="">
-          <div class="bg-white p-5 absolute top-24 left-9" style="font-family: 'Playfair Display', serif;">Photography
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-  </div>
-  <!--------------------########################### row5 ############-->
-
-  <div id="row5 " style="font-family: 'Playfair Display', serif;">
-    <div class="flex flex-row space-x-4  max-lg:flex-col  bg-[#E7F2ED]">
-
-
-      <div class="pt-32 pl-48 flex w-1/2 flex-col max-lg:pl-10 ">
-        <p class="text-5xl">Tool For Creative</p>
-        <p class="pt-10 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam veritatis itaque tenetur
-          quaerat distinctio
-          aut facilis illo debitis doloremque! Suscipit numquam nobis quod sit quasi aut voluptatibus quo est assumenda?
-        </p>
-        <div class="flex flex-row justify-start">
-          <div class="   inline-block  justify-center	  mt-5 border-2 border-[#D0D0A7] ">
-            <p class="uppercase block italic text-2xl tracking-widest text-[#04282D] p-2 ">go to the blog</p>
-          </div>
-  
-        </div>
-
-      </div>
-
-      <div class="flex flex-col max-lg:flex-row ">
-        <div class="flex flex-col "><img class="py-24  max-lg:py-5" src="./23.png" alt=""></div>
-
-      </div>
-
-      <div class="flex flex-col max-lg:flex-row ">
-        <div class="flex flex-col pr-10"><img class="py-24 max-lg:py-5" src="./24.png" alt=""></div>
-      </div>
-
-
-
-    </div>
-
-  </div>
-  <!----------------------##################### row6 started ########################--------------->
-
-  <div id="row6 " style="font-family: 'Playfair Display', serif;">
-    <section class="text-neutral-700 dark:text-neutral-300" style="font-family: 'Playfair Display', serif;">
-
-
-      <div class="grid gap-3 text-center mt-10 md:grid-cols-3 pl-10 ">
-        <div>
-          <div
-            class="block w-96  rounded-lg bg-white shadow-lg border-2 border-yellow-500 dark:bg-neutral-700 dark:shadow-black/30">
-            <div class="h-28 overflow-hidden border-2 border-yellow-500 rounded-t-lg ">
-              <p class="pt-3 italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, exercitationem.
-              </p>
-            </div>
-            <div
-              class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-yellow-500 bg-white dark:border-neutral-800 dark:bg-neutral-800">
-              <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="..." />
-            </div>
-            <div class="p-6">
-              <h4 class="mb-4  font-semibold uppercase text-sm">client name here</h4>
-              <hr />
-
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div
-            class="block w-96  rounded-lg bg-white shadow-lg border-2 border-yellow-500 dark:bg-neutral-700 dark:shadow-black/30">
-            <div class="h-28 overflow-hidden border-2 border-yellow-500 rounded-t-lg ">
-              <p class="pt-3 italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, exercitationem.
-              </p>
-            </div>
-            <div
-              class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-yellow-500 bg-white dark:border-neutral-800 dark:bg-neutral-800">
-              <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="..."/>
-            </div>
-            <div class="p-6">
-              <h4 class="mb-4 text-sm font-semibold uppercase">client name here</h4>
-              <hr />
-
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div
-            class="block w-96  rounded-lg bg-white shadow-lg border-2 border-yellow-500 dark:bg-neutral-700 dark:shadow-black/30">
-            <div class="h-28 overflow-hidden border-2 border-yellow-500 rounded-t-lg ">
-              <p class="pt-3 italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, exercitationem.
-              </p>
-            </div>
-            <div
-              class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-yellow-500 bg-white dark:border-neutral-800 dark:bg-neutral-800">
-              <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="..."/>
-            </div>
-            <div class="p-6">
-              <h4 class="mb-4 text-sm font-semibold uppercase ">client name here</h4>
-              <hr />
-
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-    </section>
-
-  </div>
-
-  <!----------------------- row 7 slaider ------------------------->
-  <div id="row7">
-    <div id="carouselExampleControls" class="relative bg-[#E7F2ED] mt-11" data-te-carousel-init data-te-carousel-slide>
-      <div class="w-full overflow-scroll">
-        <div class="flex flex-row">
-          <div class="flex items-center ml-24 pl-10 flex-row gap-5">
-            <button><img class="h-16 " src="./icons8-arrow-left-64.png" alt=""></button>
-            <img class="py-10" src="./3.png" alt="...">
-            <img class="py-10" src="./26.png" alt="">
-            <button><img class="h-16" src="./icons8-arrow-right-64.png" alt=""></button>
-
-          </div>
-
-
-        </div>
-
-      </div>
-    </div>
-
-  </div>
-
-
-
-  </div>
-
-  <!----------------------############### row8 para ##################----------------->
-  <div id="row8" style="font-family: 'Playfair Display', serif;">
-    <div class="px-10 flex flex-col">
-      <div class="flex flex-row max-md:flex-col">
-        <span class="m-14 max-lg:m-7 max-md:m-5 border-b-4 border-cyan-500 text-6xl">Lifestyle</span>
-        <span class="m-14 max-lg:m-7 max-md:m-5 border-b-4 border-lime-500 text-6xl">Travel</span>
-        <span class="m-14 max-lg:m-7 max-md:m-5 border-b-4 border-rose-500 text-6xl">Photos</span>
-      </div>
-      <div class="flex flex-row max-md:flex-col">
-        <p class="my-5 border-2 border-cyan-600 p-12"><span class="text-[60px] inline-block">L</span> orem ipsum, dolor
-          sit amet consectetur adipisicing elit. Quod
-          fugiat esse pariatur fuga tempore, vel neque itaque, fugit eligendi eos reiciendis amet eum! Dolor eos atque
-          velit consectetur, amet delectus nisi quisquam illum rem vitae ab, voluptate numquam harum quibusdam illo
-          optio,
-          est laborum! Enim quia fuga ipsa ratione hic sequi! Facere minima sit quia quasi est esse error eligendi!
-        </p>
-      </div>
-    </div>
-
-  </div>
-  <!----------------------########################## row 9 ######################-------------------->
-  <div id="row9 " style="font-family: 'Playfair Display', serif;">
-    <div class="bg-[#E7F2ED] capitalize px-10 ">
-      <div class="text-center py-10 ">
-        <p class="text-4xl">lets collaborate together</p>
-      </div>
-      <div class="flex flex-row max-md:flex-col px-16 py-10 gap-14">
-        <div class="flex flex-col  text-justify">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempora consequatur reiciendis corporis
-            architecto impedit minus! Nostrum, fugit cumque? Quasi, soluta excepturi! Minima quam repudiandae earum
-            nostrum ducimus cupiditate, unde ab odio ratione et doloremque dolor rerum excepturi! Animi similique
-            numquam
-            consequatur tempora doloribus molestias placeat optio natus excepturi velit.</p>
-        </div>
-
-        <div class="flex flex-col text-justify">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempora consequatur reiciendis corporis
-            architecto impedit minus! Nostrum, fugit cumque? Quasi, soluta excepturi! Minima quam repudiandae earum
-            nostrum ducimus cupiditate, unde ab odio ratione et doloremque dolor rerum excepturi! Animi similique
-            numquam
-            consequatur tempora doloribus molestias placeat optio natus excepturi velit.</p>
-        </div>
-
-        <div class="flex flex-col text-justify">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempora consequatur reiciendis corporis
-            architecto impedit minus! Nostrum, fugit cumque? Quasi, soluta excepturi! Minima quam repudiandae earum
-            nostrum ducimus cupiditate, unde ab odio ratione et doloremque dolor rerum excepturi! Animi similique
-            numquam
-            consequatur tempora doloribus molestias placeat optio natus excepturi velit.</p>
-        </div>
-
-        <div class="flex flex-col text-justify">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempora consequatur reiciendis corporis
-            architecto impedit minus! Nostrum, fugit cumque? Quasi, soluta excepturi! Minima quam repudiandae earum
-            nostrum ducimus cupiditate, unde ab odio ratione et doloremque dolor rerum excepturi! Animi similique
-            numquam
-            consequatur tempora doloribus molestias placeat optio natus excepturi velit.</p>
-        </div>
-
-
-
-
-
-      </div>
-    </div>
-
-
-  </div>
-
-
-  <!----------------------############### resent post ######################---->
-
-  <div id="row10 " style="font-family: 'Playfair Display', serif;">
-    <div class="my-12 text-center text-4xl text-[#04282D]"><span>Resent Post</span></div>
-    <div class="flex flex-col justify-center gap-5">
-
-      <div class="flex flex-row justify-center gap-5 max-md:flex-col">
-        <div class="block max-w-sm w-96 border-2 boredr-[#D0D0A7] rounded-lg text-[#04282D]">
-          <a href="#!">
-            <img class="rounded-t-lg p-1 " src="./17 2.png" alt="" />
-          </a>
-          <div class="p-6  ">
-            <div class="mb-2  text-xl font-medium ">
-              <p class="uppercase text-[16px] text-center pb-3 ">photo</p>
-              <p class="text-center capitalize text-xl"> little khown way to rid yourself</p>
-            </div>
-            <p class="text-center pb-4 border-b-2 border-[#D0D0A7] block">june 20,2023</p>
-            <p class="mb-4 pt-4 text-base text-neutral-600 dark:text-neutral-200 text-justify ">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-
-            <div class="" style="text-align: center;">
-              <button type="button"
-                class="inline-block rounded   capitalize bg-primary px-6 pt-2.5 pb-2 text-sm border-2 border-[#D0D0A7] font-medium  leading-normal text-[#04282D]"
-                data-te-ripple-init data-te-ripple-color="light">
-                Read more
-              </button>
-            </div>
-          </div>
-
-
-        </div>
-
-        <div class="block max-w-sm w-96 border-2 boredr-[#D0D0A7] rounded-lg text-[#04282D]">
-
-          <div class="p-3  ">
-            <div class="mb-2 mt-10 text-xl font-medium ">
-              <p class="uppercase text-[16px] text-center pb-3 ">photo</p>
-              <p class="text-center capitalize text-xl"> little khown way to rid yourself</p>
-            </div>
-            <p class="text-center pb-4 border-b-2 border-[#D0D0A7] block">june 20,2023</p>
-            <p class="mb-4 pt-4 text-base text-neutral-600 dark:text-neutral-200 text-justify ">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-
-            <div class="pt-7" style="text-align: center;">
-              <button type="button"
-                class="inline-block rounded   capitalize bg-primary px-6 pt-2.5 pb-2 text-sm border-2 border-[#D0D0A7] font-medium  leading-normal text-[#04282D]"
-                data-te-ripple-init data-te-ripple-color="light">
-                Read more
-              </button>
-            </div>
-            <div>
-              <a href="#!">
-                <img class="rounded-t-lg mt-10 " src="./17 2.png" alt="" />
-              </a>
-            </div>
-          </div>
-
-
-        </div>
-
-        <div class="block max-w-sm w-96 border-2 boredr-[#D0D0A7] rounded-lg text-[#04282D]">
-          <a href="#!">
-            <img class="rounded-t-lg p-1 " src="./17 2.png" alt="" />
-          </a>
-          <div class="p-6  ">
-            <div class="mb-2  text-xl font-medium ">
-              <p class="uppercase text-[16px] text-center pb-3 ">photo</p>
-              <p class="text-center capitalize text-xl"> little khown way to rid yourself</p>
-            </div>
-            <p class="text-center pb-4 border-b-2 border-[#D0D0A7] block">june 20,2023</p>
-            <p class="mb-4 pt-4 text-base text-neutral-600 dark:text-neutral-200 text-justify ">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-
-            <div class="" style="text-align: center;">
-              <button type="button"
-                class="inline-block rounded   capitalize bg-primary px-6 pt-2.5 pb-2 text-sm border-2 border-[#D0D0A7] font-medium  leading-normal text-[#04282D]"
-                data-te-ripple-init data-te-ripple-color="light">
-                Read more
-              </button>
-            </div>
-          </div>
-
-
-        </div>
-
-
-
-      </div>
-      <br>
-      <div class="flex flex-row justify-center gap-5 max-md:flex-col">
-
-        <div class="block max-w-sm w-96 border-2 boredr-[#D0D0A7] rounded-lg text-[#04282D]">
-
-          <div class="p-6  ">
-            <div class="mb-2  text-xl font-medium ">
-              <p class="uppercase text-[16px] text-center pb-3 ">photo</p>
-              <p class="text-center capitalize text-xl"> little khown way to rid yourself</p>
-            </div>
-            <p class="text-center pb-4 block">june 20,2023</p>
-            <a href="#!">
-              <img class="rounded-t-lg p-1 " src="./17 2.png" alt="" />
-            </a>
-            <p class="mb-4 pt-4 text-base text-neutral-600 dark:text-neutral-200 text-justify ">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
-              doloribus!
-            </p>
-
-            <div class="" style="text-align: center;">
-              <button type="button"
-                class="inline-block rounded   capitalize bg-primary px-6 pt-2.5 pb-2 text-sm border-2 border-[#D0D0A7] font-medium  leading-normal text-[#04282D]"
-                data-te-ripple-init data-te-ripple-color="light">
-                Read more
-              </button>
-            </div>
-          </div>
-
-
-        </div>
-
-
-        <div class="block max-w-sm w-96 border-2 boredr-[#D0D0A7] rounded-lg text-[#04282D]">
-
-          <div class="p-6  ">
-            <div class="mb-2  text-xl font-medium ">
-              <p class="uppercase text-[16px] text-center pb-3 ">photo</p>
-              <p class="text-center capitalize text-xl"> little khown way to rid yourself</p>
-            </div>
-            <p class="text-center pb-4 block">june 20,2023</p>
-            <a href="#!">
-              <img class="rounded-t-lg p-1 " src="./17 2.png" alt="" />
-            </a>
-            <p class="mb-4 pt-4 text-base text-neutral-600 dark:text-neutral-200 text-justify ">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
-              doloribus!
-            </p>
-
-            <div class="" style="text-align: center;">
-              <button type="button"
-                class="inline-block rounded   capitalize bg-primary px-6 pt-2.5 pb-2 text-sm border-2 border-[#D0D0A7] font-medium  leading-normal text-[#04282D]"
-                data-te-ripple-init data-te-ripple-color="light">
-                Read more
-              </button>
-            </div>
-          </div>
-
-
-        </div>
-
-
-
-        <div class="block max-w-sm w-96 border-2 boredr-[#D0D0A7] rounded-lg text-[#04282D]">
-
-          <div class="p-6  ">
-            <div class="mb-2  text-xl font-medium ">
-              <p class="uppercase text-[16px] text-center pb-3 ">photo</p>
-              <p class="text-center capitalize text-xl"> little khown way to rid yourself</p>
-            </div>
-            <p class="text-center pb-4 block">june 20,2023</p>
-            <a href="#!">
-              <img class="rounded-t-lg p-1 " src="./17 2.png" alt="" />
-            </a>
-            <p class="mb-4 pt-4 text-base text-neutral-600 dark:text-neutral-200 text-justify ">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
-              doloribus!
-            </p>
-
-            <div class="" style="text-align: center;">
-              <button type="button"
-                class="inline-block rounded   capitalize bg-primary px-6 pt-2.5 pb-2 text-sm border-2 border-[#D0D0A7] font-medium  leading-normal text-[#04282D]"
-                data-te-ripple-init data-te-ripple-color="light">
-                Read more
-              </button>
-            </div>
-          </div>
-
-
-        </div>
-
-      </div>
-      <div class="flex flex-row justify-center">
-        <div class="   inline-block  justify-center	  mt-5 border-2 border-[#D0D0A7] ">
-          <p class="uppercase block italic text-2xl tracking-widest text-[#04282D] ">view more posts</p>
-        </div>
-
-      </div>
-
-
-
-    </div>
-
-
-
-  </div>
-
-
-
-
-  <!-------------------------##################- CONTECT US ############################ ---->
-  <div id="row11" class="bg-[#E7F2ED]  " style="font-family: 'Playfair Display', serif;">
-    <div class="text-center mt-16">
-      <span class="text-4xl pt-10 ">Contact Us</span>
-    </div>
-    <div class="flex flex-row max-md:flex-col">
-      <div class="flex flex-col max-md:flex-row w-1/2 max-md:w-full items-end pt-6 pb-16  pr-20 max-sm:pr-3">
-        <div class="block max-w-md rounded-lg  bg-[#E7F2ED]  p-6 shadow-lg  w-1/2 dark:bg-neutral-700">
-          <form>
-            <div class="relative mb-6" data-te-input-wrapper-init>
-              <input type="email"
-                class="peer block min-h-[auto] w-full rounded border-2 border-[#04282D4D] bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
-                id="exampleInput8" placeholder="Email address" />
-              <label for="exampleInput8"
-                class="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-[#04282D] transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-neutral-200">Fist
-                Name
-              </label>
-            </div>
-            <div class="relative mb-6" data-te-input-wrapper-init>
-              <input type="email"
-                class="peer block min-h-[auto] w-full rounded border-2 border-[#04282D4D] bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
-                id="exampleInput8" placeholder="Email address" />
-              <label for="exampleInput8"
-                class="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-[#04282D] transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-neutral-200">Last
-                Name
-              </label>
-            </div>
-            <div class="relative mb-6" data-te-input-wrapper-init>
-              <input type="email"
-                class="peer block min-h-[auto] w-full rounded border-2 border-[#04282D4D] bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
-                id="exampleInput8" placeholder="Email address" />
-              <label for="exampleInput8"
-                class="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-[#04282D] transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-neutral-200">Email
-                address
-              </label>
-            </div>
-            <div class="relative mb-6" data-te-input-wrapper-init>
-              <textarea
-                class="peer block min-h-[auto] w-full rounded border-2 border-[#04282D4D] bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
-                id="exampleFormControlTextarea13" rows="3" placeholder="Message"></textarea>
-              <label for="exampleFormControlTextarea13"
-                class="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-[#04282D] transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-neutral-200">Comments
-              </label>
-            </div>
-
-            <button type="submit"
-              class="w-1/2 text-start  rounded bg-primary border-2 border-[#04282D4D] px-6 py-2.5  font-medium text-lg uppercase leading-tight text-[#04282D] block"
-              data-te-ripple-init data-te-ripple-color="light">
-              Submit
-            </button>
-          </form>
-        </div>
-
-      </div>
-      <div class="flex flex-col max-md:flex-row">
-        <span class="pb-2 pt-7 ">Upload File</span>
-
-        <div class="flex items-center justify-center w-full max-sm:w-1/2 max-md:w-1/2">
-          <label for="dropzone-file"
-            class="flex flex-col items-center justify-center w-[600px] h-72 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-[#E7F2ED] lg:w-full md:w-full">
-            <div class="flex flex-col items-center justify-center pt-5 pb-6">
-              <svg aria-hidden="true" class="w-10 h-10 mb-3 text-gray-400" fill="none" stroke="currentColor"
-                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
-              </svg>
-              <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Click to
-                  upload</span> or drag and drop</p>
-              <p class="text-xs text-gray-500 dark:text-gray-400">SVG, PNG, JPG or GIF (MAX. 800x400px)</p>
-            </div>
-            <input id="dropzone-file" type="file" class="hidden" />
-          </label>
-        </div>
-
-
-      </div>
-
-    </div>
-
-
-  </div>
-
-  <!--------------------########################### FAQ #######################--------->
-  <div class="relative mt-1" id="row11" style="font-family: 'Playfair Display', serif;">
-    <div class="text-center my-10">
-      <span class="text-5xl">FAQ</span>
-    </div>
-
-
-    <div class="relative flex flex-col space-y-2">
-      <div class="flex flex-row justify-center">
-        <div class="text-center ">
-          <p class="border-2 border-[#0B8497] inline-block py-5 text-2xl px-5">Lorem ipsum dolor sit amet,
-            elit. Inventore, <button> <img class="inline-block ml-12 pl-36" src="./icons8-plus-math-24.png"
-                alt="..."></button> </p>
-
-
-        </div>
-
-      </div>
-      <div class="flex flex-row justify-center">
-        <div class="text-center ">
-          <p class="border-2 border-[#0B8497] inline-block py-5 text-2xl px-5">Lorem ipsum dolor sit amet,
-            elit. Inventore, <button><img class="inline-block ml-12 pl-36" src="./icons8-plus-math-24.png"
-                alt="..."></button> </p>
-
-
-        </div>
-
-      </div>
-      <div class="flex flex-row justify-center">
-        <div class="text-center ">
-          <p class="border-2 border-[#0B8497] inline-block py-5 text-2xl px-5">Lorem ipsum dolor sit amet,
-            elit. Inventore, <button><img class="inline-block ml-12 pl-36" src="./icons8-plus-math-24.png"
-                alt="..."></button> </p>
-
-
-        </div>
-
-      </div>
-
-    </div>
-
-
-
-
-
-  </div>
-
-  <!---------------------################## footer #################--------------->
-  <footer>
-
-    <footer class="p-4 bg-white sm:p-6 dark:bg-gray-900 ">
-
-
-      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-      <div class="sm:flex sm:items-center xl:mx-auto flex justify-around ">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://flowbite.com/"
-            class="hover:underline">Haus Gitschberge | Terms & Conditions | Privacy Policy</a>
-        </span>
-        <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-          <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <path fill-rule="evenodd"
-                d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                clip-rule="evenodd" />
-            </svg>
-            <span class="sr-only">Facebook page</span>
-          </a>
-          <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <path fill-rule="evenodd"
-                d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
-                clip-rule="evenodd" />
-            </svg>
-            <span class="sr-only">Instagram page</span>
-          </a>
-          <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <path
-                d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
-            </svg>
-            <span class="sr-only">Twitter page</span>
-          </a>
-          <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <path fill-rule="evenodd"
-                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
-                clip-rule="evenodd" />
-            </svg>
-            <span class="sr-only">GitHub account</span>
-          </a>
-          <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <path fill-rule="evenodd"
-                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-                clip-rule="evenodd" />
-            </svg>
-            <span class="sr-only">Dribbbel account</span>
-          </a>
-        </div>
-      </div>
-    </footer>
-
-  </footer>
-
+            
+        </tr>
+        <tr>
+            <td>
+                Hardip sariya
+            </td>
+            <td>
+                190890131028
+            </td>
+            <td>
+                2023
+            </td>
+            <td>
+                XYZ
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table id="table1">
+        <caption><!-- this is table --></caption>
+       <tr>
+        <th>
+            Subject
+        </th>
+        <th>
+            Subject mark
+        </th>
+        <th>
+            Grade
+        </th>
+       </tr>
+       <tr>
+        <td>
+            prof.ehics
+        </td>
+        <td>
+            90
+        </td>
+        <td>
+            A
+        </td>
+       </tr>
+
+       <tr>
+        <td>
+            Web Delelopment
+        </td>
+        <td>
+            80
+        </td>
+        <td>
+            B
+        </td>
+       </tr>
+       
+       <tr>
+        <td>
+            Big Data
+        </td>
+        <td>
+            97
+        </td>
+        <td>
+            A+
+        </td>
+       </tr> 
+       
+       <tr>
+        <td>
+            TOC
+        </td>
+        <td>
+            88
+        </td>
+        <td>
+            B+
+        </td>
+       </tr>
+
+       <tr>
+        <td>
+            Compiler Design
+        </td>
+        <td>
+            76
+        </td>
+        <td>
+            c
+        </td>
+       </tr>
+          
+       <tr>
+        <td>
+            Over all Mark:
+        </td>
+        <td colspan="2">
+            96/100
+        </td>
+       
+       </tr>
+
+       <tr>
+        <td>
+            Over all Grade
+        </td>
+        <td colspan="2">
+          A
+        </td>
+
+       </tr>
+       
+
+
+    </table>
+   
+    
 </body>
-<script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
-<script src="../path/to/flowbite/dist/flowbite.min.js"></script>
-
-
 </html>

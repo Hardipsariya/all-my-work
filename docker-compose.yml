@@ -1,0 +1,11 @@
+services:
+ nodejs:
+  build:
+   context: .
+   dockerfile: dockerfile
+  image: report
+  container_name: report
+  ports:
+  -  5001:80
+  volumes:
+   - "./:/app/"
