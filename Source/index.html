@@ -4,108 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
-    <style>
-        * {
-          box-sizing: border-box;
-        }
-        
-        body {
-          margin: 0;
-          
-        }
-        
-        h1{
-          text-align: center;
-          padding: 32px;
-        }
-        
-        .div1{
-          display: flex;
-          flex-wrap: wrap;
-          padding: 0 4px;
-        }
-        
-        
-        .div2{
-          flex: 25%;
-          max-width: 25%;
-          padding: 0 4px;
-        }
-        
-        .div2 img {
-          margin-top: 8px;
-          vertical-align: middle;
-          width: 100%;
-          padding: 8px;
-          border: 1px solid black;
-        }
-        
-        
-        
-        @media (max-width: 800px) 
-        {
-          .column {
-            flex: 50%;
-            max-width: 50%;
-          }
-        }
-        
-        
-        @media (max-width: 600px)
-         {
-          .column {
-            flex: 100%;			
-            max-width: 100%;
-          }
-        }
-        </style>
+    <title>Module 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
 </head>
 <body>
-    <h1>Responsive Image Gallery</h1>
-  
-
-
-
-<div class="div1"> 
-  <div class="div2">
-    <img src="./6.jpg" alt="img6" height="600px" >
-    <img src="./2.jpg" alt="img2" height="200px">
-    <img src="./3.jpg" alt="img3" height="600px">
-    <img src="./4.jpg" alt="img4" height="200px">
-    <img src="./5.jpg" alt="img5" height="300px">
-    <img src="./1.jpg" alt="img1" height="500px"> 
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">HARDIP SARIYA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    module 2
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">01.Welcome To the Course</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">02.What Is Bootstrap</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">03.Whats New In Bootstrap</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">04.Initial Environment Setup</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">05.Bootstrap Sandbox Setup</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">06.Section Introduction</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">07.Headings amp Basic Typography</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">08.Text Alignment amp Display</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">09.Floats amp Fixed Positions</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">10.Colors amp Background</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">11.Margin amp Padding Spacing</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">12.Sizing amp Borders</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">13.CSS Breakpoints</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">14.Section Intro</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">16.Navbar amp Navs</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">17.List Groups amp Badges</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">18.Forms amp Input</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">19.Input Groups</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">20.Alerts amp Progress Bars</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">21.Tables amp Pagination</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">22.Working with Cards </a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">23.Media Objects</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">24.Section Introduction</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">25.Grid System</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">26.Grid Alignment</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">27.Flexbox Classes </a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">28.Auto Margin Wrap amp</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">29.Section Introduction</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">30.Carousel Slider</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">31.Collapse amp Accordion </a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">32.Tooltips</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">34.Modals</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                  </ul>
+                </li>
+                
+              </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     
-  </div>
-  
-  <div class="div2">
-    <img src="./5.jpg" alt="img5" height="300px">
-    <img src="./1.jpg" alt="img1" height="500px">
-    <img src="./4.jpg" alt="img4" height="200px">
-    <img src="./6.jpg" alt="img6" height="600px">
-    <img src="./2.jpg" alt="img2" height="200px">
-    <img src="./3.jpg" alt="img3" height="600px">
-  </div> 
-   
-  <div class="div2">
-    <img src="./4.jpg" alt="img4" height="200px">
-    <img src="./2.jpg" alt="img2" height="500px">
-    <img src="./3.jpg" alt="img3" height="300px">   
-    <img src="./1.jpg" alt="img1" height="600px">
-    <img src="./6.jpg" alt="img6" height="600px">
-    <img src="./5.jpg" alt="img5" height="200px">
-    
-  </div>
-  
-  <div class="div2">
-    <img src="./3.jpg" alt="img3" height="500px">
-    <img src="./1.jpg" alt="img1" height="200px">
-    <img src="./6.jpg" alt="img6" height="600px">
-    <img src="./5.jpg" alt="img5" height="200px">
-    <img src="./4.jpg" alt="img4" height="600px">
-    <img src="./2.jpg" alt="img2" height="300px">
-  </div>
-</div>
-
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 </html>
